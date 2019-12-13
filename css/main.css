@@ -1,7 +1,15 @@
-.white {
+.purple {
   color: #D8BFD8;
 }
 
-.zzz {
-  z-index: 0;
+.light-purple {
+  background-color: #D9BFD9;
+}
+
+html {
+  font-family: 'Domine', serif;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
 }
