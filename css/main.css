@@ -1,15 +1,66 @@
 .purple {
-  color: #D8BFD8;
+  color: #d8bfd8;
 }
 
 .light-purple {
-  background-color: #D9BFD9;
+  background-color: #d9bfd9;
 }
 
 html {
-  font-family: 'Domine', serif;
+  font-family: " Domine ", serif;
 }
 
 h1, h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: " Montserrat ", sans-serif;
+}
+
+.skip-links {
+  position: absolute;
+  top: -3em;
+}
+
+.skip-links:focus {
+  top: 0;
+}
+
+.btn:hover {
+  color: #d9bfd9;
+  background-color: #fff;
+}
+
+.btn {
+  color: #000;
+  text-decoration: none;
+}
+
+.nav-btn:hover {
+  color: #d9bfd9;
+  background-color: #fff;
+}
+
+.nav-btn {
+  color: #000;
+  text-decoration: none;
+}
+
+.btn-banner:hover {
+  color: #000;
+  background-color: #fff;
+  padding: 1em;
+}
+
+.btn-banner {
+  color: #d8bfd8;
+  text-decoration: none;
+}
+
+.btn-banner-2:hover {
+  color: #000;
+  background-color: #fff;
+  padding: 1em;
+}
+
+.btn-banner-2 {
+  color: #fff;
+  text-decoration: none;
 }
